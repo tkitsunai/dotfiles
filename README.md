@@ -1,2 +1,5 @@
 # dotfiles
-configs
+
+- windows
+  - bash
+  - vscode

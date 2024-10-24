@@ -1,0 +1,22 @@
+{
+  "hediet.vscode-drawio.resizeImages": null,
+  "workbench.startupEditor": "none",
+  "editor.tabSize": 2,
+  "files.autoSaveDelay": 500,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "npm.packageManager": "pnpm",
+  "window.zoomLevel": 1.5,
+  "editor.formatOnSave": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.external.osxExec": "",
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.fontSize": 15,
+  "prettier.printWidth": 100,
+  "json.schemas": [],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.newWindowProfile": null
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "key": "ctrl+h",
+    "command": "cursorLeft",
+    "when": "editorTextFocus && !terminalFocus && !findWidgetVisible"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "cursorDown",
+    "when": "editorTextFocus && !terminalFocus && !findWidgetVisible"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "cursorUp",
+    "when": "editorTextFocus && !terminalFocus && !findWidgetVisible"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "cursorRight",
+    "when": "editorTextFocus && !terminalFocus && !findWidgetVisible"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "extension.simpleNewFile",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+end",
+    "command": "cursorEnd",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+j",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "-workbench.action.newWindow"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "alt+1",
+    "command": "workbench.view.explorer",
+    "when": "!explorerViewletVisible"
+  },
+  {
+    "key": "alt+1",
+    "command": "workbench.action.focusSideBar",
+    "when": "explorerViewletVisible"
+  },
+  {
+    "key": "alt+1",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "explorerViewletVisible && sideBarFocus"
+  }
+]
